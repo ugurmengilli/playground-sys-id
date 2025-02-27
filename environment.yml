@@ -1,0 +1,16 @@
+name: ml-bopt
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python  # Let Conda decide the best compatible version
+  - pip
+  - numpy
+  - pandas
+  - plotly
+  - matplotlib
+  - jupyterlab
+  - scikit-learn
+  - pip:
+      - kaleido   # save plotly figures.
+      - jax       # high-performance computation
